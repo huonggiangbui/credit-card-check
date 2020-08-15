@@ -1,0 +1,41 @@
+.page-container {
+  width: 100%;
+  height: 100%;
+}
+
+.header,
+.content-container > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  height: 20%;
+  border-radius: 5px;
+  margin: 20px 10px;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(52, 175, 56);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(213, 238, 204);
+}
+
+button:hover {background-color: #3b913d}
+
+button:active {
+  background-color: #3e8a40;
+  box-shadow: 0 5px rgb(165, 214, 168);
+  transform: translateY(4px);
+}
